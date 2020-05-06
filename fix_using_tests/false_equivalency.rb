@@ -8,6 +8,7 @@ end
 
 
 def selection(num)
+get_user_input  
   if num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
