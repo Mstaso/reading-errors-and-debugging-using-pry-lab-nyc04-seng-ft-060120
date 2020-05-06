@@ -7,7 +7,8 @@ def get_user_input
 end
 
 
-def selection(num=2)
+def selection(num)
+  binding.pry
   if num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
