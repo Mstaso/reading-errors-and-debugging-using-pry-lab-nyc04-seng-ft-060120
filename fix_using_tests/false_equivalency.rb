@@ -13,7 +13,6 @@ def selection(num=2)
   elsif num = 2
      "HAM HAM HAM IN MY TUMMY"
   end
-  binding.pry
 end
 
 def runner
