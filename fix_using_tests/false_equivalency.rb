@@ -14,6 +14,7 @@ end
 
 
 def selection(num)
+get_user_input  
   if num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
@@ -23,7 +24,6 @@ end
 
 def runner
   prompt_user
-  get_user_input
   selection(get_user_input)
 end
 
